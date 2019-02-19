@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/image_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bau1" />
+
+    <ImageView
+        android:id="@+id/image_sub"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@id/image_item"
+        android:layout_alignBottom="@id/image_item"
+        android:src="@drawable/ic_sub" />
+
+    <ImageView
+        android:layout_alignBottom="@id/image_item"
+        android:id="@+id/image_add"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignRight="@id/image_item"
+        android:src="@drawable/ic_add" />
+
+    <TextView
+        android:layout_alignBottom="@id/image_item"
+        android:id="@+id/tv_set_coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/image_add"
+        android:layout_toRightOf="@+id/image_sub"
+        android:gravity="center"
+        android:text=" 300 "
+        android:layout_marginBottom="3dp"
+        android:textSize="12sp" />
+
+</RelativeLayout>

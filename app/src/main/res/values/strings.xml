@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">BauCua</string>
+    <string name="can_not_set_coin">Không thể đặt thêm vàng nữa!</string>
+    <string name="can_not_below_0_coin">0 vàng rồi, còn muốn nhỏ thế nào nữa!</string>
+    <string name="add_2000_coin_success">Bạn vừa được cộng thêm 2000 vàng</string>
+    <string name="add_coin_fails">Dưới 2000 vàng mới được cộng nha, ahihi</string>
+    <string name="vibrate">Xóc</string>
+    <string name="open">Mở</string>
+    <string name="reduce_coin">Bạn đã đặt quá nhiều so với số tiền bạn đang có!</string>
 </resources>
